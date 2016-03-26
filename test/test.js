@@ -24,6 +24,10 @@ describe('Is vCard Date/Time Type', () => {
         expect(isVcardDateTimeType('timestamp')).to.equal(true);
     });
 
+    it('should verify that "instant" is an invalid type', () => {
+        expect(isVcardDateTimeType('instant')).to.equal(false);
+    });
+
     it('should verify that "moment" is an invalid type', () => {
         expect(isVcardDateTimeType('moment')).to.equal(false);
     });
