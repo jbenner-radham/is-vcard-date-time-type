@@ -27,4 +27,8 @@ describe('Is vCard Date/Time Type', () => {
     it('should verify that "moment" is an invalid type', () => {
         expect(isVcardDateTimeType('moment')).to.equal(false);
     });
+
+    it('should verify that "period" is an invalid type', () => {
+        expect(isVcardDateTimeType('period')).to.equal(false);
+    });
 });
