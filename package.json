@@ -4,7 +4,7 @@
   "description": "Determines if the supplied parameter is a valid vCard date/time type.",
   "main": "lib/is-vcard-date-time-type.js",
   "scripts": {
-    "test": "mocha"
+    "test": "gulp && mocha"
   },
   "repository": {
     "type": "git",
