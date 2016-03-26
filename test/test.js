@@ -11,4 +11,8 @@ describe('Is vCard Date/Time Type', () => {
     it('should verify that "date-and-or-time" is a valid type', () => {
         expect(isVcardDateTimeType('date-and-or-time')).to.equal(true);
     });
+
+    it('should verify that "date-time" is a valid type', () => {
+        expect(isVcardDateTimeType('date-time')).to.equal(true);
+    });
 });
