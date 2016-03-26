@@ -1,6 +1,6 @@
 {
   "name": "is-vcard-date-time-type",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Determines if the supplied parameter is a valid vCard date/time type.",
   "main": "lib/is-vcard-date-time-type.js",
   "scripts": {
